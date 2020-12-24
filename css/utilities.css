@@ -1,0 +1,23 @@
+/*********************** This is the utilities file
+******** here we put the style for reusable classes
+**************************************************/
+
+:root {
+  --bgGradient: linear-gradient(180deg, #79c0d3 0%, #873ccf 100%);
+  --white: #ffffff;
+  --purple: #873ccf;
+  --azure: #79c0d3;
+}
+
+.btn {
+  width: 235px;
+  height: 60px;
+  outline: none;
+  border-radius: 10px;
+  background: var(--bgGradient);
+  color: var(--white);
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+}
