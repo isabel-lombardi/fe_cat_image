@@ -2,6 +2,7 @@
 @import "reset.css";
 @import "utilities.css";
 
+/* CSS FOR THE PAGES */
 @import "pages/index.css";
 @import "pages/about.css";
 @import "pages/select_file.css";
