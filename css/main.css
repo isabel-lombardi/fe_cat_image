@@ -1,0 +1,7 @@
+@import "fonts.css";
+@import "reset.css";
+@import "utilities.css";
+
+@import "pages/index.css";
+@import "pages/about.css";
+@import "pages/select_file.css";
