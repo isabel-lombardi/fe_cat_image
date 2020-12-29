@@ -18,3 +18,19 @@ nav .logo {
   width: 200px;
   z-index: 1;
 }
+
+.about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about h1 {
+  font-size: 36px;
+  color: #000;
+  font-family: "Anton";
+  margin-bottom: 60px;
+}
