@@ -20,6 +20,13 @@ h6 {
   color: var(--white);
 }
 
+a,
+a:active,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
 /******************************
 ******************* Navbar ****
 ******************************/
@@ -27,6 +34,8 @@ h6 {
 nav {
   height: 240px;
   width: 100%;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
