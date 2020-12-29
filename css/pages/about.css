@@ -19,6 +19,32 @@ nav .logo {
   z-index: 1;
 }
 
+nav .nav__links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav__links li {
+  text-decoration: none;
+  color: #000000;
+  font-weight: normal;
+
+  line-height: 42px;
+  text-align: center;
+  margin-right: 60px;
+  transition: all 0.5s ease;
+}
+
+.nav__links li a {
+  color: #000000;
+}
+
+.nav__links li a:hover,
+.nav__links li a:active,
+a.current {
+  color: #873ccf !important;
+}
+
 .about {
   width: 100%;
   height: auto;
@@ -33,4 +59,3 @@ nav .logo {
   color: #000;
   font-family: "Anton";
   margin-bottom: 60px;
-}
