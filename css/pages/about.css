@@ -1,0 +1,20 @@
+nav .logo__bg {
+  position: absolute;
+  width: 859.61px;
+  height: 859.61px;
+  left: -30%;
+  top: -70%;
+  border-radius: 50%;
+  background: radial-gradient(
+    177.68% 177.68% at 74.11% 24.64%,
+    #79c0d3 0%,
+    #873ccf 100%
+  );
+  transform: rotate(115.6deg);
+}
+
+nav .logo {
+  height: 100px;
+  width: 200px;
+  z-index: 1;
+}

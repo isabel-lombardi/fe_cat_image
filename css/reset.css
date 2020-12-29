@@ -19,3 +19,17 @@ h5,
 h6 {
   color: var(--white);
 }
+
+/******************************
+******************* Navbar ****
+******************************/
+
+nav {
+  height: 240px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 90px;
+  margin-bottom: 60px;
+}
