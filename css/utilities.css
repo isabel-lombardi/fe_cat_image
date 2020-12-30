@@ -5,6 +5,7 @@
 :root {
   --bgGradient: linear-gradient(180deg, #79c0d3 0%, #873ccf 100%);
   --white: #ffffff;
+  --black: #000000;
   --purple: #873ccf;
   --azure: #79c0d3;
 }
