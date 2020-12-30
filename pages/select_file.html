@@ -33,6 +33,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta charset="UTF-8" />
     <link rel="canonical" href="#" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.2/dropzone.min.css'/>
     <link rel="icon" href="../assets/icons/logo.svg" />
     <link rel="preload" href="../css/main.css" as="style" />
     <link rel="stylesheet" href="../css/main.css" />
@@ -53,7 +54,16 @@
       </div>
     </nav>
 
-    <main></main>
+    <!-- SELECT AREA -->
+    <main class="select">
+      <div class="select__area">
+        <form class="select__area__form" action="" method="">
+          <input class="select__area__form__input" type="file" name="select-image" id="select-image" accept="image/*">
+          <label class="btn" for="select-image">Browse...</label>
+        </form>
+      </div>
+    </main>
+
     <footer></footer>
   </body>
 </html>

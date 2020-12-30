@@ -20,3 +20,40 @@ body {
   margin-left: auto;
   margin-right: 25px;
 }
+
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select__area {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 0.36);;
+  border-radius: 16px;
+}
+
+.select__area__form__input {
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+/* .select__area__form__input:focus + label,
+.select__area__form__input + label:hover {
+  background-color: red;
+} */
+
+.select__area__form .btn {
+  padding: 10px 40px;
+  cursor: pointer;
+}
