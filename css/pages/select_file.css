@@ -1,6 +1,7 @@
 body {
   background-image: var(--bgGradient);
   height: 100vh;
+  max-width: 100vw;
   font-family: 'Roboto';
 }
 
@@ -13,10 +14,84 @@ body {
   display: flex;
   align-items: center;
   font-size: 28px;
-  
 }
 
 .select-nav__profile__pic {
   margin-left: auto;
   margin-right: 25px;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select__area__form {
+  width: 821px;
+  max-width: 100vw;
+  background-color: rgba(255, 255, 255, 0.36);
+  border-radius: 16px;
+}
+
+.select__area__button {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.select__area__button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    min-width: 100vw
+  }
+
+  nav {
+    padding: 0 20px;
+  }
+
+  .select-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .select-nav__logo {
+    margin-right: 20px;
+  }
+
+  .select-nav__profile__pic {
+    margin-right: 5px;
+  }
+
+  .select-nav__profile__name {
+    font-size: 15px;
+  }
+  
+  .select {
+    min-width: 90vw;
+  }
+
+  .select__area__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    overflow: scroll;
+  }
+
+  .dz-preview {
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+  }
+
+  .select__area__button {
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
 }

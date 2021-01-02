@@ -33,7 +33,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta charset="UTF-8" />
     <link rel="canonical" href="#" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.2/dropzone.min.css'/>
     <link rel="icon" href="../assets/icons/logo.svg" />
+    <link rel="stylesheet" href="../css/dropzone.css" />
     <link rel="preload" href="../css/main.css" as="style" />
     <link rel="stylesheet" href="../css/main.css" />
     <title>Cat.Image | The image categorizer | Select your file</title>
@@ -53,7 +55,18 @@
       </div>
     </nav>
 
-    <main></main>
+    <!-- SELECT AREA -->
+    <main class="select">
+      <div class="select__area">
+        <form class="dropzone select__area__form" id="my-awesome-dropzone" action="/file-upload" method="">
+          <button class="btn select__area__button" type="submit" value="Submit">Submit</button>
+        </form>
+      </div>
+    </main>
+
     <footer></footer>
   </body>
+
+  <!-- SCRIPT DROPZONEJS -->
+  <script src="../js/dropzone.js"></script>
 </html>
