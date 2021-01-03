@@ -1,8 +1,10 @@
-body {
+.body {
   background-image: var(--bgGradient);
-  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
   max-width: 100vw;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .select-nav__logo img,
@@ -25,10 +27,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 300px;
 }
 
 .select__area__form {
   width: 821px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   max-width: 100vw;
   background-color: rgba(255, 255, 255, 0.36);
   border-radius: 16px;
@@ -38,6 +46,8 @@ body {
   display: block;
   margin: 0 auto;
   position: relative;
+  display: none;
+  order: 2;
 }
 
 .select__area__button:hover {
@@ -46,7 +56,7 @@ body {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body {
-    min-width: 100vw
+    min-width: 100vw;
   }
 
   nav {
@@ -70,7 +80,7 @@ body {
   .select-nav__profile__name {
     font-size: 15px;
   }
-  
+
   .select {
     min-width: 90vw;
   }

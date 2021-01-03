@@ -33,21 +33,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta charset="UTF-8" />
     <link rel="canonical" href="#" />
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.2/dropzone.min.css'/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.2/dropzone.min.css"
+    />
     <link rel="icon" href="../assets/icons/logo.svg" />
     <link rel="stylesheet" href="../css/dropzone.css" />
     <link rel="preload" href="../css/main.css" as="style" />
     <link rel="stylesheet" href="../css/main.css" />
     <title>Cat.Image | The image categorizer | Select your file</title>
   </head>
-  <body>
+  <body class="body">
     <nav class="select-nav">
       <div class="select-nav__logo">
-        <img src="../assets/icons/logo.svg" alt="Cat Image Logo">
+        <img src="../assets/icons/logo.svg" alt="Cat Image Logo" />
       </div>
       <div class="select-nav__profile">
         <div class="select-nav__profile__pic">
-          <img src="../assets/icons/propic.png" alt="propic">
+          <img src="../assets/icons/propic.png" alt="propic" />
         </div>
         <div class="select-nav__profile__name">
           <h3>John Doe</h3>
@@ -58,15 +61,21 @@
     <!-- SELECT AREA -->
     <main class="select">
       <div class="select__area">
-        <form class="dropzone select__area__form" id="my-awesome-dropzone" action="/file-upload" method="">
-          <button class="btn select__area__button" type="submit" value="Submit">Submit</button>
+        <form
+          class="dropzone select__area__form"
+          id="my-awesome-dropzone"
+          action="/file-upload"
+          method=""
+        >
+          <button class="btn select__area__button" type="submit" value="Submit">
+            Submit
+          </button>
         </form>
       </div>
     </main>
-
-    <footer></footer>
   </body>
 
   <!-- SCRIPT DROPZONEJS -->
+  <script src="../js/index.js"></script>
   <script src="../js/dropzone.js"></script>
 </html>
