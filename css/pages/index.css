@@ -94,14 +94,14 @@ a.current {
   font-weight: 700;
 }
 
-/* .index-footer {
+.index-footer {
   display: flex;
   padding: 0 90px 30px;
   justify-content: center;
 }
 
 .index-footer__powered {
-  margin-right: 10px; */
+  margin-right: 10px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -133,7 +133,7 @@ a.current {
     width: 90vw;
   }
 
-  /* .index-footer {
+  .index-footer {
     padding-left: 0;
     padding-right: 0;
   }
@@ -145,5 +145,5 @@ a.current {
   .index-footer__logo {
     width: 171px;
     height: 16px;
-  } */
+  }
 }
