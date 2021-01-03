@@ -23,6 +23,36 @@
   margin-right: 25px;
 }
 
+.select-nav__profile__dropdown {
+  position: absolute;
+  width: 230px;
+  height: auto;
+  border: 1px solid var(--azure);
+  border-top: 0;
+  border-right: 0;
+  border-radius: 0 0 20px 200px;
+  list-style-type: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 16px;
+  top: 135px;
+  right: 90px;
+  padding: 0 5px;
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.active {
+  display: flex;
+}
+
+.select-nav__profile__dropdown li {
+  align-self: flex-end;
+  margin: 5px 0;
+}
+
 .select {
   display: flex;
   justify-content: center;
