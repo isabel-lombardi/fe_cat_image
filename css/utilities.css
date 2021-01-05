@@ -8,6 +8,7 @@
   --black: #000000;
   --purple: #873ccf;
   --azure: #79c0d3;
+  --red: #e20808;
 }
 
 .btn {
@@ -17,8 +18,13 @@
   border-radius: 10px;
   background: var(--bgGradient);
   color: var(--white);
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
+}
+
+.error {
+  color: var(--red) !important;
+  border: 2px solid var(--red);
 }
