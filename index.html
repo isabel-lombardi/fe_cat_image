@@ -38,13 +38,13 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>Cat.Image | The image categorizer</title>
   </head>
-  <body>
+  <body class="index-body">
     <!-- NAVBAR -->
     <nav class="index-nav">
       <div class="index-nav__logo">
         <img class="logo" src="assets/icons/logo.svg" alt="CAT.Image logo" />
       </div>
-      
+
       <ul class="index-nav__links">
         <li><a href="#">Docs</a></li>
         <li><a href="/pages/about.html" class="current">About</a></li>
@@ -63,18 +63,44 @@
       <div class="index-main__login">
         <h2 class="index-main__login__title">Login</h2>
         <h3 class="index-main__login__subtitle">to your account</h3>
-        <form action="" class="index-main__login__form">
-          <input type="text" placeholder="Email or Username">
-          <input type="password" placeholder="Password">
-          <button class="btn index-main__login__form__button" type="submit">Login</button>
+        <form
+          action=""
+          id="index-main__login__form"
+          method="POST"
+          class="index-main__login__form"
+        >
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Email or Username"
+          />
+          <label id="usernameLabel" for="username"></label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          />
+          <label id="passwordLabel" for="password"></label>
+          <button class="btn index-main__login__form__button" type="submit">
+            Login
+          </button>
         </form>
-        <h4 class="index-main__login__sign-up">Don't have an account? <a href="#">Sign Up.</a></h4>
+        <h4 class="index-main__login__sign-up">
+          Don't have an account? <a href="#">Sign Up.</a>
+        </h4>
       </div>
     </main>
 
     <footer class="index-footer">
       <h5 class="index-footer__powered">POWERED BY</h5>
-      <img class="index-footer__logo" src="assets/icons/tdevs-logo.png" alt="logo tomorrowDevs">
+      <img
+        class="index-footer__logo"
+        src="assets/icons/tdevs-logo.png"
+        alt="logo tomorrowDevs"
+      />
     </footer>
+    <script src="js/login.js"></script>
   </body>
 </html>
