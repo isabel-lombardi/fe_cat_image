@@ -2,6 +2,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-image: var(--bgGradient);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  max-width: 100vw;
+  font-family: "Roboto";
 }
 
 .index-nav__links {
