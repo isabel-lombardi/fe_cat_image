@@ -66,20 +66,25 @@
     <main class="select">
       <div class="select__area">
         <form
-          class="dropzone select__area__form"
-          id="my-awesome-dropzone"
           action=""
-          method="POST"
+          class="select__area__form"
+          method="post"
+          enctype="multipart/form-data"
         >
-          <button class="btn select__area__button" type="submit" value="Submit">
-            Submit
-          </button>
+          <input id="browse" type="file" onchange="previewFiles()" multiple />
+          <div id="preview"></div>
+          <input
+            class="btn select__area__button"
+            type="submit"
+            value="submit"
+          />
         </form>
       </div>
     </main>
   </body>
 
-  <!-- SCRIPT DROPZONEJS -->
+  <!-- SCRIPT -->
   <script src="../js/index.js"></script>
+  <script src="../js/upload.js"></script>
   <script src="../js/dropzone.js"></script>
 </html>

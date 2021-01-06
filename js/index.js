@@ -1,5 +1,5 @@
 (function init() {
-  dropdown();
+  dropDown();
 })();
 
 //Animate the dropdown menu
@@ -13,8 +13,6 @@ function dropDown() {
     else dropdown.classList.add("active");
   });
 }
-
-
 
 //Let appear the submit button when the user load files
 const selectForm = document.querySelector(".select__area form");
